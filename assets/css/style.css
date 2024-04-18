@@ -2,9 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
 
 
 
@@ -269,9 +266,21 @@ body {
   border-radius: var(--radius-8);
 
 }
-.navbar-link{
-  
+
+.navbar-link {
+  font-family: var(--ff-catamaran);
+  font-size: var(--fs-4);
+  text-align: center;
+  padding-block: 10px;
+  margin-block-end: 20px;
+  transition: var(--transition-1);
+
 }
+
+.navbar-link:is(:hover, :focus, .active) {
+  color: var(--rich-black-fogra-29-1);
+}
+
 
 /*-----------------------------------*\
   #HERO
